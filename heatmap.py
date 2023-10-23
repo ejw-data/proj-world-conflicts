@@ -27,7 +27,7 @@ import math
 
 url = 'http://ucdpapi.pcr.uu.se/api/gedevents/19.1?pagesize=1&page=1'
 
-filepath = 'Data_Files/ged191.xlsx'
+filepath = 'data/ged191.xlsx'
 
 data = pd.read_excel(filepath)
 
